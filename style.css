@@ -8,8 +8,9 @@
     font-size: 17px;      
 }
 
-body{
-    background-color: rgb(106, 106, 243);
+body{    
+   background: rgb(5,0,85);
+   background: linear-gradient(90deg, rgba(5,0,85,1) 0%, rgba(36,82,214,1) 46%, rgba(0,212,255,1) 100%);
 }
 
 h1{
@@ -20,7 +21,10 @@ h1{
     padding: 70px 40px;
 }
 #arrow{
-    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+    padding-right: 15px;
+    padding-top: 30px;
 }
 .wrapper{
     width: 40%;
